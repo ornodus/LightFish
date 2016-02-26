@@ -10,6 +10,7 @@ use App\Controllers;
 $app = new App();
 $app->get('/', 'App\Controllers\HomeController:home');
 $app->get('/hello/:name', function ($name) {
+    file_put_contents('gs://sound-url.appspot.com/hello.txt', 'Hello');
     echo "Hello, $name";
 });
 
