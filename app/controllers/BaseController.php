@@ -22,8 +22,8 @@ class BaseController
     public function smarty(){
         $smarty=new smarty(); //实例化smarty
         $smarty->settemplatedir(BASE_PATH.'/views/default/'); //设置模板文件存放目录
-        $smarty->setcompiledir(BASE_PATH.'/storage/framework/smarty/compile/'); //设置生成文件存放目录
-        $smarty->setcachedir(BASE_PATH.'/storage/framework/smarty/cache/'); //设置缓存文件存放目录
+        $smarty->setcompiledir("gs://sound-url.appspot.com/achievotmp/compiled/"); //设置生成文件存放目录
+        $smarty->setcachedir("gs://sound-url.appspot.com/achievotmp/cache/"); //设置缓存文件存放目录
         $this->smarty = $smarty;
         return $smarty;
     }
