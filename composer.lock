@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "9a4d1164e6e687c9cc2e8d1d14068702",
-    "content-hash": "31e60e47e8684c54e92adbd2d517383b",
+    "hash": "a54501e1ef95b84ac004bb96c2a98e95",
+    "content-hash": "be2cb1dffc8d10dca9acb66c9ba232c0",
     "packages": [
         {
             "name": "container-interop/container-interop",
@@ -655,16 +655,16 @@
         },
         {
             "name": "smarty/smarty",
-            "version": "v3.1.29",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/smarty-php/smarty.git",
-                "reference": "35480f10e7ce9b0fdaf23d3799d7b79463919b1e"
+                "reference": "0e5ea2a4671ee3850f611705190bbdbd21b2de42"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/smarty-php/smarty/zipball/35480f10e7ce9b0fdaf23d3799d7b79463919b1e",
-                "reference": "35480f10e7ce9b0fdaf23d3799d7b79463919b1e",
+                "url": "https://api.github.com/repos/smarty-php/smarty/zipball/0e5ea2a4671ee3850f611705190bbdbd21b2de42",
+                "reference": "0e5ea2a4671ee3850f611705190bbdbd21b2de42",
                 "shasum": ""
             },
             "require": {
@@ -706,7 +706,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2015-12-21 01:57:06"
+            "time": "2016-02-25 23:50:15"
         },
         {
             "name": "symfony/polyfill-mbstring",
@@ -897,7 +897,8 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "slim/slim": 5
+        "slim/slim": 5,
+        "smarty/smarty": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

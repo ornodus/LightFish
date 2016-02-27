@@ -4,7 +4,7 @@
     "illuminate/database": "*",
     "slim/twig-view": "~2.0",
     "slim/csrf": "0.4.*",
-    "smarty/smarty": "~3.1"
+    "smarty/smarty": "~3.1@dev"
   },
   "autoload": {
     "classmap": [
